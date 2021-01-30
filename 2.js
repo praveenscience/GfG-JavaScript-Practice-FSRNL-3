@@ -10,11 +10,7 @@ a = 1;
     let c = 15;
     // Four: Block level scope, constant.
     const d = 20;
-    // console.log({ a, b, c, d });
-    console.log("a = " + a);
-    console.log("b = " + b);
-    console.log("c = " + c);
-    console.log("d = " + d);
+    console.log({ a, b, c, d });
   }
 })();
-console.log("a = " + a);
+console.log({ a });
